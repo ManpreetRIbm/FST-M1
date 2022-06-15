@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="password"/>
+    <classes>
+    	<class name="com.ibm.selenium.FST_Selenium.TestNGActivity6"/>
+    	<!-- <class name="com.ibm.selenium.FST_Selenium.TestNGActivity7"/> -->
+      <!-- <class name="com.ibm.selenium.FST_Selenium.DemoOne"/>
+      <class name="com.ibm.selenium.FST_Selenium.DemoTwo"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
